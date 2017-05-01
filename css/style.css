@@ -21,3 +21,41 @@ body {
   font-weight: bold;
   font-family: PT Sans Narrow, Arial, sans-serif;
 }
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  outline: 3px solid green;
+  
+  margin-bottom: 55px;
+}
+
+header .menu {
+  outline: 3px solid red;
+
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu-nav {
+  outline: 3px solid yellow;
+
+  width: 780px;
+  float: left;
+  min-height: 70px;
+}
+
+.menu-user {
+  outline: 3px solid yellow;
+
+  width: 140px;
+  float: right;
+  min-height: 70px;
+}
