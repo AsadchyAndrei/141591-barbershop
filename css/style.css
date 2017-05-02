@@ -12,6 +12,7 @@ body {
   color: #000000;
   font-weight: bold;
   font-family: PT Sans Narrow, Arial, sans-serif;
+
 }
 
 .products-title {
@@ -30,11 +31,11 @@ body {
 
 header {
   outline: 3px solid green;
-  
+
   margin-bottom: 55px;
 }
 
-header .menu {
+.menu {
   outline: 3px solid red;
 
   width: 940px;
@@ -42,6 +43,12 @@ header .menu {
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.menu::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .menu-nav {
@@ -58,4 +65,140 @@ header .menu {
   width: 140px;
   float: right;
   min-height: 70px;
+}
+
+main {
+  outline: 3px solid green;
+
+}
+
+.block-caption {
+  outline: 3px solid red;
+
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 55px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.block-caption {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.caption {
+  outline: 3px solid yellow;
+
+  width: 940px;
+  float: left;
+}
+
+.breadcrumbs {
+  outline: 3px solid yellow;
+
+  width: 940px;
+  float: left;
+}
+
+.catalog {
+  outline: 3px solid red;
+
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.catalog::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.filters {
+  outline: 3px solid yellow;
+
+  width: 220px;
+  float: left;
+}
+
+.products {
+  outline: 3px solid yellow;
+
+  width: 700px;
+  float: right;
+}
+
+.products-item {
+  outline: 3px solid blue;
+
+  width: 220px;
+  min-height: 287px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.products-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pages {
+  outline: 3px solid blue;
+
+  float: left;
+}
+
+footer {
+  outline: 3px solid green;
+
+  margin-top: 50px;
+}
+
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.block-footer {
+  outline: 3px solid red;
+
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.block-footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-left {
+  outline: 3px solid yellow;
+
+  width: 380px;
+  float: left;
+  margin-right: 20px;
+}
+
+.footer-center {
+  outline: 3px solid yellow;
+
+  width: 140px;
+  float: left;
+}
+
+.footer-right {
+  outline: 3px solid yellow;
+
+  width: 140px;
+  float: right;
 }
